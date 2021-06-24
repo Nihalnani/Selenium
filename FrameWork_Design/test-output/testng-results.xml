@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[application opened]]>
+    </line>
+    <line>
+      <![CDATA[login completed]]>
+    </line>
+    <line>
+      <![CDATA[logout completed]]>
+    </line>
+    <line>
+      <![CDATA[application opened]]>
+    </line>
+    <line>
+      <![CDATA[application opened]]>
+    </line>
+    <line>
+      <![CDATA[login completed]]>
+    </line>
+    <line>
+      <![CDATA[logout completed]]>
+    </line>
+    <line>
+      <![CDATA[driver closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-22T18:55:54 IST" name="orangehrm" finished-at="2021-06-22T18:57:28 IST" duration-ms="94569">
+    <groups>
+    </groups>
+    <test started-at="2021-06-22T18:55:54 IST" name="hrmscripts" finished-at="2021-06-22T18:57:28 IST" duration-ms="94569">
+      <class name="com.hrms.TestScripts.TC_Login_Logout">
+        <test-method signature="login()[pri:0, instance:com.hrms.TestScripts.TC_Login_Logout@4944252c]" started-at="2021-06-22T18:55:54 IST" name="login" finished-at="2021-06-22T18:56:16 IST" duration-ms="22386" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[application opened]]>
+            </line>
+            <line>
+              <![CDATA[login completed]]>
+            </line>
+            <line>
+              <![CDATA[logout completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.hrms.TestScripts.TC_Login_Logout -->
+      <class name="com.hrms.TestScripts.TC_Drag_Drop">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.hrms.TestScripts.TC_Drag_Drop@5403f35f]" started-at="2021-06-22T18:56:16 IST" name="startUp" finished-at="2021-06-22T18:56:36 IST" duration-ms="19890" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[application opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="drap_drop()[pri:0, instance:com.hrms.TestScripts.TC_Drag_Drop@5403f35f]" started-at="2021-06-22T18:56:36 IST" name="drap_drop" finished-at="2021-06-22T18:56:41 IST" duration-ms="4853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drap_drop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.TestScripts.TC_Drag_Drop@5403f35f]" started-at="2021-06-22T18:56:41 IST" name="tearDown" finished-at="2021-06-22T18:56:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.TestScripts.TC_Drag_Drop -->
+      <class name="com.hrms.TestScripts.TC_Excel_xls">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:com.hrms.TestScripts.TC_Excel_xls@483f6d77]" started-at="2021-06-22T18:56:41 IST" name="Startup" finished-at="2021-06-22T18:57:04 IST" duration-ms="22897" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[application opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="login()[pri:0, instance:com.hrms.TestScripts.TC_Excel_xls@483f6d77]" started-at="2021-06-22T18:57:04 IST" name="login" finished-at="2021-06-22T18:57:21 IST" duration-ms="17347" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login completed]]>
+            </line>
+            <line>
+              <![CDATA[logout completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hrms.TestScripts.TC_Excel_xls@483f6d77]" started-at="2021-06-22T18:57:21 IST" name="teardown" finished-at="2021-06-22T18:57:28 IST" duration-ms="6966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hrms.TestScripts.TC_Excel_xls -->
+    </test> <!-- hrmscripts -->
+  </suite> <!-- orangehrm -->
+</testng-results>
